@@ -1,0 +1,3 @@
+# hello bots, please leave this site alone
+User-agent: 
+Disallow: / 
