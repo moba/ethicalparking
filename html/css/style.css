@@ -208,18 +208,10 @@ h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover{color:#0078CF;
 /* -- GRID  https://github.com/mattberridge/Proportional-Grids/
 ------------------------------------------------------------- */
 body{width:100%; background: url(../img/stripes.png) no-repeat 40% 0;}
-.container {width: 90%; margin: 2em auto 0 2em; max-width: 1100px; min-width: 300px;}
- 
-.grid-wrap {
-  margin-left: -3em; /* the same as your gutter */
-  overflow: hidden;
-  *zoom:1;}
-  .grid-wrap:before, .grid-wrap:after{content:""; display:table}
-  .grid-wrap:after{clear:both}
+.container {margin: 2em;}
   
 .grid {
   float: left;
-  padding-left: 3em; /* this is your gutter between columns */
   width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -509,30 +501,6 @@ ul.page-numbers{float: right;overflow:hidden; display:block;}
 .ir{display:block; border:0; text-indent:-999em; overflow:hidden; background-color:transparent; background-repeat:no-repeat; text-align:left; direction:ltr; *line-height: 0;}
 .ir br{display:none}
 .hidden{display:none !important; visibility:hidden}
-
-
-
-/* -------------------------------------------------------------
-======	IE Fix
-------------------------------------------------------------- */
-.lt-ie9 .works figure a, .lt-ie9 .works figure a img { filter:inherit} 
-/* jquery filter opacity issue IE8 */
-
-.lt-ie9 .container {min-width: 780px;}
-.lt-ie8 .container {width: 960px;}
-.lt-ie8 .grid-wrap {margin-left: 0; }
-.lt-ie8 .grid {padding: 0;margin-left: 5%; }
-  .lt-ie8 .grid:first-child {margin-left: 0; }
-
-.lt-ie8 .col-full {width: 99.95%; }
-.lt-ie8 .col-full + .grid {margin-left: 0; }
-.lt-ie8 .col-one-half {width: 47.45%; }
-.lt-ie8 .col-one-third {width: 29.55%; }
-.lt-ie8 .col-two-thirds {width: 64.95%; }
-.lt-ie8 .col-one-quarter {width: 19.95%; }
-.lt-ie8 .col-three-quarters {width: 74.95%; }
-
-
 
 /* -------------------------------------------------------------
 ======	MEDIA QUERIES
